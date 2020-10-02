@@ -56,6 +56,10 @@ void draw()
          {
            exit();  
          }
+         else
+         {
+           setup();
+         }
       }
   if(!clicked && mousePressed && !start_identified)
   {
